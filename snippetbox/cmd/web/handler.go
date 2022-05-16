@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"https://github.com/Marcelinnn/Go-PAW/pkg/models/mysql"
+	"github.com/Marcelinnn/Go-PAW/pkg/models"
 )
 
 func (app *application) home(rw http.ResponseWriter, r *http.Request) {

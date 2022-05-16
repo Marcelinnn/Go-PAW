@@ -8,7 +8,7 @@ import (
 	"os"
 
 	_ "github.com/go-sql-driver/mysql"
-	"https://github.com/Marcelinnn/Go-PAW/pkg/models/mysql"
+	"github.com/Marcelinnn/Go-PAW/pkg/models"
 )
 
 type application struct{
@@ -23,7 +23,7 @@ func main() {
 	addr := flag.String("addr", ":4000", "Porta da Rede")
   
   dsn := flag.String("dsn",
-                     "RNNRfSNISQ:jMFmtb1Hby@tcp(remotemysql.com)/RNNRfSNISQ?parseTime=true", 
+                     "84k3rhmXNC:F1U5yXHL8V@tcp(remotemysql.com)/84k3rhmXNC?parseTime=true", 
                      "MySql DSN")
   
 	flag.Parse()
